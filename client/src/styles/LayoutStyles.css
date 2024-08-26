@@ -1,0 +1,96 @@
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main {
+  height: 100vh;
+  background-image: url('../images/hi.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout {
+  display: flex;
+  width: 95%;
+  max-width: 1320px; 
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 78%; 
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  padding: 15px 0;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu-item.active,
+.menu-item:hover {
+  background-color: #444;
+}
+
+.menu-item i {
+  margin-right: 10px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-bottom: 2px solid #0056b3;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-content a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.body {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
